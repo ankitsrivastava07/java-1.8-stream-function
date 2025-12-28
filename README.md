@@ -1,1 +1,1 @@
-# Java 8 Stream and Functions Example
+# Java 8 Stream and Functions
