@@ -22,9 +22,9 @@ public class EmployeeHighestSalary {
 
     public static void main(String[] args) {
 
-        Employee e1 = new Employee("Manya Srivastava", "HR", 35000);
-        Employee e2 = new Employee("Manya Srivastava", "Sales", 15000);
-        Employee e3 = new Employee("Manya Srivastava", "Intern", 25000);
+        Employee e1 = new Employee("A", "HR", 35000);
+        Employee e2 = new Employee("B", "Sales", 15000);
+        Employee e3 = new Employee("B", "Intern", 25000);
         findSecondHighestSalary(Arrays.asList(e1, e2, e3));
     }
 
