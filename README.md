@@ -1,7 +1,7 @@
 # Java 8 Stream and Functions Questions
 Q) Character Count:- 
 Ans:- String word like "test"
-str.chars().mapToObj(e-> (char)e).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+str.chars().mapToObj(e-> (char)e).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()));
 
 Q) Convert Array To Stream
 Ans:- Arrays.stream();
